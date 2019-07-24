@@ -4,9 +4,9 @@ int main()
   int a;
   cin>>a;
   if(a>0)
-    cout<<"Positive"<<endl;
+    cout<<"Positive";
   else if(a<0)
-    cout<<"Negative"<<endl;
+    cout<<"Negative";
   else
-    cout<<"Zero"<<endl;
+    cout<<"Zero";
 }
