@@ -2,11 +2,27 @@
 using namespace std;
 int main()
 {
-char a;
-cin>>a;
-if(a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U')
-  cout<<"Vowel";
-else
-  cout<<"Consonant";
-return 0;
+  char a;
+  cin>>a;
+  switch(a)
+  {
+    case 'a':
+    case 'A':
+    case 'e':
+    case 'E':
+    case 'i':
+    case 'I':
+    case 'o':
+    case 'O':
+    case 'u':
+    case 'U':
+      cout<<"Vowel";
+      break;
+    case (isalpha(a)):
+      cout<<"Consonant";
+      break;
+    default:
+      cout<<"Invalid";
+  }
+  return 0;
 }
