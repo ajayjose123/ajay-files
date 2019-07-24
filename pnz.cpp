@@ -1,4 +1,5 @@
-#include<stdio>
+#include<iostream>
+using namespace std;
 int main()
 {
   int a;
@@ -9,4 +10,5 @@ int main()
     cout<<"Negative";
   else
     cout<<"Zero";
+  return 0;
 }
