@@ -9,4 +9,5 @@ int main()
     cout<<"Negative"<<endl;
   else
     cout<<"Zero"<<endl;
+  return 0;
 }
