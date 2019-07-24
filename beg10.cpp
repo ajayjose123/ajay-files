@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-int n, i=0;
-cin>>n;
-while(n!=0)
+int a, i=0;//jhsdofjhw
+cin>>a;
+while(a!=0)
 {
-n/=10;
+a/=10;
 i++;
 }
 cout<<i;
