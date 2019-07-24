@@ -2,13 +2,14 @@
 using namespace std;
 int main()
 {
-  int a;
-  cin>>a;
-  if(a>0)
+  int n;
+  cin>>n;
+  if(n>0)
     cout<<"Positive";
-  else if(a<0)
+  else if(n<0)
     cout<<"Negative";
   else
     cout<<"Zero";
   return 0;
 }
+//hello
