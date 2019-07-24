@@ -5,25 +5,14 @@ int main()
 {
   char a;
   cin>>a;
-  switch(a)
+  if(isalpha(a))
   {
-    case 'a':
-    case 'A':
-    case 'e':
-    case 'E':
-    case 'i':
-    case 'I':
-    case 'o':
-    case 'O':
-    case 'u':
-    case 'U':
+    if(a == 'a'||a == 'A'||a == 'e'||a == 'E'||a == 'i'||a == 'I'||a == 'o'||a == 'O'||a == 'u'|| a == 'U')
       cout<<"Vowel";
-      break;
-    case (isalpha(a)):
+    else
       cout<<"Consonant";
-      break;
-    default:
-      cout<<"Invalid";
   }
+  else
+    cout<<"Invalid";
   return 0;
 }
