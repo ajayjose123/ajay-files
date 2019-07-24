@@ -1,2 +1,3 @@
 x= (int) (input(" "));
-print ( x*(x+1)/2 );
+y=x*(x+1)/2;
+print ( (float)y );
