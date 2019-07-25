@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-  int n, digits = 0, cpy, rev;
+  int n, digits = 0, cpy, rev, r;
   cin>>n;
   cpy = n;
   
