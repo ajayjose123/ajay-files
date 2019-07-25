@@ -4,9 +4,8 @@ using namespace std;
 
 int main()
 {
-  int n, digits = 0, cpy, rev, r;
-  cin>>n;
-  cpy = n;
+  int n, digits = 0, cpy, rev = 0, r;
+  cin >> n;
   
   while(cpy!=0)
   {
@@ -14,16 +13,18 @@ int main()
     digits++;
   }
   
-  for(int i = 0; i<digits; i++)
+  cpy = n;
+  for(int i = 1; i<=digits; i++)
   {
-    r = n%10;
-    rev += r * pow(10, (digits - i));
+    r=cpy%10;
+    rev += r*pow(10, digits - i));
+    cpy/=10;
   }
   
-  if(n == rev)
-  cout<<"yes";
+  if(n!=rev)
+    cout<<"no";
   else
-  cout<<"no";
+    cout<<"yes";
   
   return 0;
 }
