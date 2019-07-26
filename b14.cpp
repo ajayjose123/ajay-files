@@ -9,7 +9,7 @@ int main()
   for(int i=a+1; i<b; i++)
   {
     if(i%2 != 0)
-      cout<<i<<"  ";
+      cout<<i<<" ";
   }
   
   return 0;
