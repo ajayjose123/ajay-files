@@ -13,6 +13,8 @@ int main()
   return 0;
 }
 
+//function
+
 int fact(int a)
 {
   if(a>1)
