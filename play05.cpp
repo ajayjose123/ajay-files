@@ -44,7 +44,7 @@ int main()
 
 int calc(char a)
 {
-  int val = 0;
+  int val = 0,val2;
   switch(a)
   {
     case 'I':
@@ -67,6 +67,6 @@ int calc(char a)
         break;
       }
   }
-  
-  return val;
+  val2=val;
+  return val2;
 }
