@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<ctype.h>
 
 using namespace std;
 
@@ -9,14 +10,13 @@ int main()
   cin>>n;
   
   string a[n];
-  string result = NULL;
   
   bool eql = true;
   
   for(int i=0; i<n; i++)
     cin>>a[i];
   
-  string cpy = a;
+  string cpy = a[0];
   
   for(int i=0; i<cpy.length(); i++)
   {
@@ -30,16 +30,11 @@ int main()
     }
     
     if(eql == true)
-      result.append(cpy[i]);
+      cout<<cpy[i];
     else
-    {
-      if(result != NULL)
-        cout<<result;
-      else
-        cout<<"No common prefix";
       break;
-    }
   }
+
   
   return 0;
 }
