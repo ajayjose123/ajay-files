@@ -4,15 +4,19 @@ using namespace std;
 
 int main()
 {
-  int n, i = 0;
+  int n, i = 0, p, max;
   cin>>n;
   
-  while(pow(2, i) < n)
-  {
-    i++;
-  }
+//   while(pow(2, i) < n)
+//   {
+//     i++;
+//   }
   
-  cout<<(n - pow(2, i-1)); // prints the output.
+  
+  
+  p = (log10(max))/(log10(2));
+  
+  cout<<(n - pow(2, p));
   
   return 0;
 }
