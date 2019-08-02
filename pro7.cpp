@@ -19,7 +19,7 @@ int main()
   
   result = n - p;
   
-  cout<<p<<endl<<result;
+  cout<<result;
   
   return 0;
 }
