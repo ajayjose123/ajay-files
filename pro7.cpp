@@ -4,15 +4,22 @@ using namespace std;
 
 int main()
 {
-  int n, i = 0;
+  int p, n, i = 0, result;
   cin>>n;
   
-  while(pow(2, i) < n)
-  {
+  
+  
+  while(pow(2,i) < n)
     i++;
-  }
   
-  cout<<(n - pow(2, i-1));
+  p = pow(2, i);
   
-  return 0;
+  if(p > n)
+    p = pow(2, i-1);
+  
+  result = n - p;
+  
+  cout<<p<<endl<<result;
+  
+  //return 0;
 }
