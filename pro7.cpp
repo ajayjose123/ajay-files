@@ -21,5 +21,5 @@ int main()
   
   cout<<p<<endl<<result;
   
-  //return 0;
+  return 0;
 }
