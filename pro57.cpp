@@ -29,4 +29,6 @@ int main()
       cout<<"yes";
     else
       cout<<"no";
+  
+  return 0;
 }
